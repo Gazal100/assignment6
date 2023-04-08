@@ -6,7 +6,7 @@
 *
 * Name: Gazal Garg       Student ID: 107140212        Date: April 08
 *
-* Vercel App (Deployed) Link: _____________________________________________________
+* Vercel App (Deployed) Link: https://assignment6-delta.vercel.app/
 *
 ********************************************************************************/ 
 import React from 'react';
