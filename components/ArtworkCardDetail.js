@@ -9,7 +9,7 @@ import {favouritesAtom} from '@/store'
 import { addToFavourites, removeFromFavourites } from '@/lib/userData';
 
 
-export default ArtworkCardDetail = ({ objectID }) => {
+const ArtworkCardDetail = ({ objectID }) => {
 
     const [favouritesList, setFavouritesList] = useAtom(favouritesAtom)
     const [showAdded, setShowAdded] = useState(false)
@@ -93,3 +93,4 @@ export default ArtworkCardDetail = ({ objectID }) => {
   );
 };
 
+export default ArtworkCardDetail;
