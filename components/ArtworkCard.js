@@ -1,5 +1,5 @@
 import react from 'react'
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import useSWR from 'swr';
 import Link from 'next/link';
 import { Card, Button } from 'react-bootstrap';
