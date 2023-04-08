@@ -3,7 +3,7 @@ import { useRouter } from 'next/router';
 import { Row, Col } from 'react-bootstrap';
 import ArtworkCardDetail from '@/components/ArtworkCardDetail';
 
-const artworkById = () => {
+const ArtworkById = () => {
 
     const router = useRouter();
     const { objectID } = router.query;
@@ -19,4 +19,4 @@ const artworkById = () => {
     )
 }
 
-export default artworkById
+export default ArtworkById
